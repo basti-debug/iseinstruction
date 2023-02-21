@@ -54,63 +54,6 @@ wsl -l -v
 ```
 *here you can see the status of the distro aswell as the Place etc.*
 
-## Installing Ubuntu 
-
-Download Ubuntu [here](https://www.microsoft.com/store/productId/9PDXGNCFSCZV)
-the open it 
-this should appear in a cmd:
-```
-Import in progress, this may take a few minutes....
-```
-
-now u have to select a unix username and password, be sure to remember these you need these often 
-
-Now open a new Terminal and select a ubuntu Terminal on the top 
-![](source/Pastedimage20230221012151.png)
-now enter the following command: 
-
-```shell
-sudo apt update && sudo apt -y upgrade 
-```
-
-when its done:
-*this is a remote client so you can access the ubuntu gui*
-```shell
-sudo apt install xrdp
-```
-*you may need to enter a 'y' if a prompt with 'Do you want to continue' appears*
-
-then we install a lightweight ui:
-```shell 
-sudo apt install -y xfce4
-```
-and some addons
-```shell 
-sudo apt install -y xfce4-goodies
-```
-
-so now we need to change the server port to 3390: 
-
-```shell 
-sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
-```
-
-now we start the server:
-```shell 
-sudo /etc/init.d/xrdp start
-```
-
-**Now we open Remote Desktop Connection**
-there we type in `localhost:3390` and press connect 
-please press yes on the upcomming popup 
-
-now a full screen application should appear: 
-
-![](sources/Pastedimage20230220220000.png)
-
-now you type in your created cridentals 
-
-now you should have this screen: 
 
 ## Installing ZorinOs 
 
