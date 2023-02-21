@@ -106,7 +106,7 @@ please press yes on the upcomming popup
 
 now a full screen application should appear: 
 
-![[Pasted image 20230220220000.png]]
+![[sources/Pasted image 20230220220000.png]]
 
 now you type in your created cridentals 
 
@@ -130,7 +130,7 @@ you now need to wait until this is imported
 
 
 Now you need a new ZorinOs Tab in your Terminal:
-![[Pasted image 20230220214357.png]]
+![[sources/Pasted image 20230220214357.png]]
 *Press on the down erow in the tab bar and select ZorinOs*
 
 Now you have to create your unix cridentals, these are very important so remeber these!
@@ -138,7 +138,7 @@ Now you have to create your unix cridentals, these are very important so remeber
 now the distro will be installed this may take some time. 
 
 Now the Terminal should look like this:
-![[Pasted image 20230220214452.png]]
+![[sources/Pasted image 20230220214452.png]]
 
 now enter the following command: 
 
@@ -178,12 +178,12 @@ please press yes on the upcomming popup
 
 now a full screen application should appear: 
 
-![[Pasted image 20230220220000.png]]
+![[sources/Pasted image 20230220220000.png]]
 
 now you type in your created cridentals 
 
 now you should have this screen: 
-![[Pasted image 20230220220102.png]]
+![[sources/Pasted image 20230220220102.png]]
 
 please click through this installer until its done
 **now you have zorinOs installed** 
