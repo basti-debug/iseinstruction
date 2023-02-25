@@ -267,11 +267,13 @@ now it should work
 ## Installing ISE
 	
 first download the ISE [here](https://www.xilinx.com/member/forms/download/xef.html?filename=Xilinx_ISE_DS_Lin_14.7_1015_1.tar&akdm=0)
+download it on your ZorinOs
+
 wait until its completly downloaded
 
-now minimize the remote session at the middle top of the screen in the blue box 
-in your windows open a Termial and select a ZorinOs terminal
-there **navigate** to your downloaded File using **cd** like this:
+now press the windows key and type in terminal,
+now select xfce terminal and typ in the following command: 
+
 ```shell
 cd Downloads
 ```
@@ -281,4 +283,15 @@ now you need to unpack the tar with the following command:
 tar xvf Xilinx_ISE_DS_Lin_14.7_1015_1.tar -C /tmp/
 ```
 *waint until this unpacking is completed...*
+
+now enter the following commands:
+```shell 
+cd /tmp
+cd Xilinx_ISE_DS_Lin_14.7_1015_1
+sudo dpkg --configure -a
+sudo apt-get install libncurses5
+
+sudo ./xsetup
+```
+
 
